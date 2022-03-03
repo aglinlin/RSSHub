@@ -592,6 +592,21 @@
     "/hbr/topic/:topic?/:type?": [
         "nczitzk"
     ],
+    "/hdu/cs": [
+        "legr4ndk"
+    ],
+    "/hellobtc/information/:channel?": [
+        "Fatpandac"
+    ],
+    "/hellobtc/news": [
+        "Fatpandac"
+    ],
+    "/hellobtc/kepu/:channel?": [
+        "Fatpandac"
+    ],
+    "/hellobtc/topic/:id": [
+        "Fatpandac"
+    ],
     "/heu/yjsy/list/:id": [
         "Derekmini"
     ],
@@ -663,6 +678,9 @@
     "/ieee/:journal/latest/vol/:sortType?": [
         "Derekmini",
         "auto-bot-ty"
+    ],
+    "/ielts/": [
+        "zenxds"
     ],
     "/independent/ps5-stock-uk": [
         "DIYgod"
@@ -1093,6 +1111,10 @@
     "/people/:site?/:category?": [
         "nczitzk"
     ],
+    "/picuki/profile/:id/:displayVideo?": [
+        "hoilc",
+        "Rongronggg9"
+    ],
     "/pku/hr/:category?": [
         "nczitzk"
     ],
@@ -1252,8 +1274,9 @@
         "xyqfer",
         "Fatpandac"
     ],
-    "/telegram/telegram/channel/:username/:searchQuery?": [
-        "DIYgod"
+    "/telegram/telegram/channel/:username/:routeParams?": [
+        "DIYgod",
+        "Rongronggg9"
     ],
     "/telegram/telegram/stickerpack/:name": [
         "DIYgod"
@@ -1274,11 +1297,23 @@
     "/tisi/latest": [
         "Fatpandac"
     ],
+    "/tokeninsight/blog/:lang?": [
+        "fuergaosi233"
+    ],
+    "/tokeninsight/bulletin:lang?": [
+        "fuergaosi233"
+    ],
+    "/tokeninsight/report:lang?": [
+        "fuergaosi233"
+    ],
     "/topys/:keyword?": [
         "nczitzk"
     ],
     "/trow/portal": [
         "shiningdracon"
+    ],
+    "/txrjy/fornumtopic/:channel?": [
+        "Fatpandac"
     ],
     "/ucas/job/:type?": [
         "Fatpandac"
@@ -1422,6 +1457,9 @@
     "/whoscall/categories/:category?": [
         "nczitzk"
     ],
+    "/wikinews/latest": [
+        "KotoriK"
+    ],
     "/wsj/:lang/:category?": [
         "oppilate"
     ],
@@ -1449,7 +1487,8 @@
         "Maecenas"
     ],
     "/xiaoyuzhou/podcast/:id": [
-        "hondajojo"
+        "hondajojo",
+        "jtsang4"
     ],
     "/yaohuo/": [
         "nczitzk"
@@ -2907,7 +2946,6 @@
     "/liequtv/room/:id": [],
     "/behance/:user/:type?": [],
     "/bwu/news": [],
-    "/picuki/profile/:id/:displayVideo?": [],
     "/newrank/wechat/:wxid": [],
     "/newrank/douyin/:dyid": [],
     "/manxiaosi/book/:id": [],
