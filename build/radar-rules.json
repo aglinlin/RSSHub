@@ -726,6 +726,44 @@
       }
     ]
   },
+  "aicaijing.com": {
+    "_name": "AI 财经社",
+    "www": [
+      {
+        "title": "最新文章",
+        "docs": "https://docs.rsshub.app/finance.html#ai-cai-jing-she-zui-xin-wen-zhang",
+        "source": [
+          "/"
+        ],
+        "target": "/aicaijing/latest"
+      },
+      {
+        "title": "封面文章",
+        "docs": "https://docs.rsshub.app/finance.html#ai-cai-jing-she-feng-mian-wen-zhang",
+        "source": [
+          "/"
+        ],
+        "target": "/aicaijing/cover"
+      },
+      {
+        "title": "推荐资讯",
+        "docs": "https://docs.rsshub.app/finance.html#ai-cai-jing-she-tui-jian-zi-xun",
+        "source": [
+          "/"
+        ],
+        "target": "/aicaijing/recommend"
+      },
+      {
+        "title": "热点 & 深度",
+        "docs": "https://docs.rsshub.app/finance.html#ai-cai-jing-she-re-dian-shen-du",
+        "source": [
+          "/information/:id",
+          "/"
+        ],
+        "target": "/aicaijing/information/:id?"
+      }
+    ]
+  },
   "airchina.com.cn": {
     "_name": "中国国际航空公司",
     "www": [
@@ -1199,6 +1237,38 @@
           "/all.php"
         ],
         "target": "/audiobar/latest"
+      }
+    ]
+  },
+  "baidu.com": {
+    "_name": "贴吧",
+    "tieba": [
+      {
+        "title": "帖子列表",
+        "docs": "https://docs.rsshub.app/bbs.html#bai-du-tie-ba",
+        "source": "f"
+      },
+      {
+        "title": "精品帖子",
+        "docs": "https://docs.rsshub.app/bbs.html#bai-du-tie-ba",
+        "source": "f"
+      },
+      {
+        "title": "帖子动态",
+        "docs": "https://docs.rsshub.app/bbs.html#bai-du-tie-ba",
+        "source": "/p/:id",
+        "target": "/tieba/post/:id"
+      },
+      {
+        "title": "只看楼主",
+        "docs": "https://docs.rsshub.app/bbs.html#bai-du-tie-ba",
+        "source": "/p/:id",
+        "target": "/tieba/post/lz/:id"
+      },
+      {
+        "title": "用户帖子",
+        "docs": "https://docs.rsshub.app/bbs.html#tie-ba",
+        "source": "/home/main"
       }
     ]
   },
@@ -2988,6 +3058,19 @@
           "/news/ddh"
         ],
         "target": "/diandong/ddh/:cate"
+      }
+    ]
+  },
+  "diershoubing.com": {
+    "_name": "二柄 APP",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/game.html#er-bing-app",
+        "source": [
+          "/"
+        ],
+        "target": "/diershoubing/news"
       }
     ]
   },
@@ -5009,6 +5092,18 @@
       }
     ]
   },
+  "cnnic.net.cn": {
+    "_name": "中国互联网络信息中心",
+    "www": [
+      {
+        "title": "新闻中心",
+        "docs": "https://docs.rsshub.app/government.html#zhong-guo-hu-lian-wang-luo-xin-xi-zhong-xin-xin-wen-zhong-xin",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "customs.gov.cn": {
     "_name": "中华人民共和国海关总署",
     "www": [
@@ -5153,6 +5248,18 @@
           "/"
         ],
         "target": "/gov/moe/newest_file"
+      }
+    ]
+  },
+  "mofcom.gov.cn": {
+    "_name": "中华人民共和国商务部",
+    ".": [
+      {
+        "title": "新闻发布",
+        "docs": "https://docs.rsshub.app/government.html#zhong-hua-ren-min-gong-he-guo-shang-wu-bu",
+        "source": [
+          "/article/*"
+        ]
       }
     ]
   },
@@ -6663,11 +6770,20 @@
     "www": [
       {
         "title": "研究报告",
-        "docs": "https://docs.rsshub.app/journal.html#ieee-xplore",
+        "docs": "https://docs.rsshub.app/other.html#ai-rui-chan-ye-yan-jiu-bao-gao",
         "source": [
           "/report.shtml"
         ],
         "target": "/iresearch/report"
+      },
+      {
+        "title": "周度市场观察",
+        "docs": "https://docs.rsshub.app/other.html#ai-rui-zhou-du-shi-chang-guan-cha",
+        "source": [
+          "/report.shtml?type=3",
+          ""
+        ],
+        "target": "/iresearch/weekly/:category"
       }
     ]
   },
@@ -11678,6 +11794,20 @@
       }
     ]
   },
+  "remnote.com": {
+    "_name": "RemNote",
+    ".": [
+      {
+        "title": "Changelog",
+        "docs": "https://docs.rsshub.app/program-update.html#remnote",
+        "source": [
+          "/changelog",
+          "/"
+        ],
+        "target": "/remnote/changelog"
+      }
+    ]
+  },
   "reuters.com": {
     "_name": "路透社",
     ".": [
@@ -12739,6 +12869,18 @@
       }
     ]
   },
+  "stheadline.com": {
+    "_name": "星島日報",
+    "std": [
+      {
+        "title": "即時",
+        "docs": "https://docs.rsshub.app/traditional-media.html#xing-dao-ri-bao",
+        "source": [
+          "/realtime/*category"
+        ]
+      }
+    ]
+  },
   "storm.mg": {
     "_name": "風傳媒",
     ".": [
@@ -13087,6 +13229,28 @@
           "/app/:id"
         ],
         "target": "/taptap/review/:id"
+      }
+    ]
+  },
+  "taptap.io": {
+    "_name": "TapTap International",
+    ".": [
+      {
+        "title": "Changelog",
+        "docs": "https://docs.rsshub.app/game.html#taptap",
+        "source": [
+          "/app/:id"
+        ],
+        "target": "/taptap/intl/changelog/:id"
+      },
+      {
+        "title": "Ratings & Reviews",
+        "docs": "https://docs.rsshub.app/game.html#taptap",
+        "source": [
+          "/app/:id/review",
+          "/app/:id"
+        ],
+        "target": "/taptap/intl/review/:id"
       }
     ]
   },
@@ -14171,6 +14335,20 @@
       }
     ]
   },
+  "vom.mn": {
+    "_name": "蒙古之声",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#meng-gu-zhi-sheng",
+        "source": [
+          "/:lang",
+          "/"
+        ],
+        "target": "/vom/featured/:lang"
+      }
+    ]
+  },
   "wallhaven.cc": {
     "_name": "wallhaven",
     ".": [
@@ -14823,6 +15001,15 @@
           "/"
         ]
       }
+    ],
+    "www.dyyy": [
+      {
+        "title": "第一附属医院新闻",
+        "docs": "https://docs.rsshub.app/university.html#xi-an-jiao-tong-da-xue",
+        "source": [
+          "/*"
+        ]
+      }
     ]
   },
   "xmanhua.com": {
@@ -14835,6 +15022,20 @@
           "/:uid"
         ],
         "target": "/xmanhua/:uid"
+      }
+    ]
+  },
+  "xmnn.cn": {
+    "_name": "厦门网",
+    "epaper": [
+      {
+        "title": "数字媒体",
+        "docs": "https://docs.rsshub.app/traditional-media.html#xia-men-wang-shu-zi-mei-ti",
+        "source": [
+          "/:id",
+          "/"
+        ],
+        "target": "/xmnn/epaper/:id"
       }
     ]
   },
@@ -15809,38 +16010,6 @@
         "docs": "https://docs.rsshub.app/program-update.html#pu-gong-ying-ying-yong-fen-fa",
         "source": "/:app",
         "target": "/pgyer/:app"
-      }
-    ]
-  },
-  "baidu.com": {
-    "_name": "贴吧",
-    "tieba": [
-      {
-        "title": "帖子列表",
-        "docs": "https://docs.rsshub.app/bbs.html#tie-ba",
-        "source": "f"
-      },
-      {
-        "title": "精品帖子",
-        "docs": "https://docs.rsshub.app/bbs.html#tie-ba",
-        "source": "f"
-      },
-      {
-        "title": "帖子动态",
-        "docs": "https://docs.rsshub.app/bbs.html#tie-ba",
-        "source": "/p/:id",
-        "target": "/tieba/post/:id"
-      },
-      {
-        "title": "只看楼主",
-        "docs": "https://docs.rsshub.app/bbs.html#tie-ba",
-        "source": "/p/:id",
-        "target": "/tieba/post/lz/:id"
-      },
-      {
-        "title": "用户帖子",
-        "docs": "https://docs.rsshub.app/bbs.html#tie-ba",
-        "source": "/home/main"
       }
     ]
   },
