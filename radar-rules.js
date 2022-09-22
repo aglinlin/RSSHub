@@ -384,19 +384,19 @@
             { title: '党建活动', docs: 'http://docs.rsshub.app/university.html#hu-bei-gong-ye-da-xue', source: '/djhd/djhd.htm', target: '/hbut/cs/djhd' },
         ],
     },
-    'zcool.com.cn': {
-        _name: '站酷',
-        www: [
-            { title: '发现', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/discover' },
-            { title: '发现 - 精选 - 全部推荐', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/discover/all' },
-            { title: '发现 - 精选 - 首页推荐', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/discover/home' },
-            { title: '发现 - 精选 - 编辑精选', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/discover/home' },
-            { title: '发现 - 精选 - 文章 - 编辑精选', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/discover/article' },
-            { title: '作品榜单', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/top/design' },
-            { title: '文章榜单', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/top/article' },
-            { title: '用户作品', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: ['/u/:id'], target: '/zcool/user/:id' },
-        ],
-    },
+    // 'zcool.com.cn': {
+    //     _name: '站酷',
+    //     www: [
+    //         { title: '发现', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/discover' },
+    //         { title: '发现 - 精选 - 全部推荐', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/discover/all' },
+    //         { title: '发现 - 精选 - 首页推荐', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/discover/home' },
+    //         { title: '发现 - 精选 - 编辑精选', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/discover/home' },
+    //         { title: '发现 - 精选 - 文章 - 编辑精选', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/discover/article' },
+    //         { title: '作品榜单', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/top/design' },
+    //         { title: '文章榜单', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: '', target: '/zcool/top/article' },
+    //         { title: '用户作品', docs: 'https://docs.rsshub.app/design.html#zhan-ku', source: ['/u/:id'], target: '/zcool/user/:id' },
+    //     ],
+    // },
     't.me': {
         _name: 'Telegram',
         '.': [
@@ -825,20 +825,6 @@
             { title: '用户的喜爱列表', docs: 'https://docs.rsshub.app/social-media.html#fur-affinity', source: '/favorites/:username/', target: '/furaffinity/favorites/:username' },
             { title: '作品评论区', docs: 'https://docs.rsshub.app/social-media.html#fur-affinity', source: '/view/:id/', target: '/furaffinity/submission_comments/:id' },
             { title: '日记评论区', docs: 'https://docs.rsshub.app/social-media.html#fur-affinity', source: '/journal/:id/', target: '/furaffinity/journal_comments/:id' },
-        ],
-    },
-    'bgm.tv': {
-        _name: 'Bangumi',
-        '.': [
-            { title: '小组话题', docs: 'https://docs.rsshub.app/anime.html#bangumi', source: '/group/:id', target: '/bangumi/group/:id' },
-            { title: '小组话题的新回复', docs: 'https://docs.rsshub.app/anime.html#bangumi', source: '/group/topic/:id', target: '/bangumi/topic/:id' },
-            { title: '现实人物的新作品', docs: 'https://docs.rsshub.app/anime.html#bangumi', source: '/person/:id', target: '/bangumi/person/:id' },
-            { title: '用户日志', docs: 'https://docs.rsshub.app/anime.html#bangumi', source: '/user/:id', target: '/bangumi/user/blog/:id' },
-            { title: '条目的讨论', docs: 'https://docs.rsshub.app/anime.html#bangumi', source: '/subject/:id', target: '/bangumi/subject/:id/topics' },
-            { title: '条目的评论', docs: 'https://docs.rsshub.app/anime.html#bangumi', source: '/subject/:id', target: '/bangumi/subject/:id/blogs' },
-            { title: '条目的章节', docs: 'https://docs.rsshub.app/anime.html#bangumi', source: '/subject/:id', target: '/bangumi/subject/:id' },
-            { title: '条目的吐槽箱', docs: 'https://docs.rsshub.app/anime.html#bangumi', source: '/subject/:id', target: '/bangumi/subject/:id/comments' },
-            { title: '放送列表', docs: 'https://docs.rsshub.app/anime.html#bangumi', source: '/calendar', target: '/bangumi/calendar/today' },
         ],
     },
     'e-hentai.org/': {
