@@ -747,6 +747,9 @@
     "/codeforces/contests": [
         "Fatpandac"
     ],
+    "/comicskingdom/:name": [
+        "stjohnjohnson"
+    ],
     "/consumer/:category?/:language?/:keyword?": [
         "nczitzk"
     ],
@@ -2252,6 +2255,9 @@
     "/jisilu/:category?/:sort?/:day?": [
         "nczitzk"
     ],
+    "/jornada/:date?/:category?": [
+        "Thealf154"
+    ],
     "/jseea/news/:type?": [
         "schen1024"
     ],
@@ -2316,6 +2322,12 @@
     ],
     "/knowmedia/:category?": [
         "Fatpandac"
+    ],
+    "/kuaidi100/company": [
+        "NeverBehave"
+    ],
+    "/kuaidi100/track/:number/:id/:phone?": [
+        "NeverBehave"
     ],
     "/kuwaitlocal/": [
         "TonyRL"
@@ -2447,7 +2459,10 @@
     "/lovelive-anime/news/:option?": [
         "axojhf"
     ],
-    "/lovelive-anime/topics/:abbr/:category?": [
+    "/lovelive-anime/topics/:abbr/:category?/:option?": [
+        "axojhf"
+    ],
+    "/lovelive-anime/schedules/:serie/:category?": [
         "axojhf"
     ],
     "/luogu/contest": [
@@ -2511,6 +2526,9 @@
     ],
     "/mihoyo/bbs/official/:gids/:type?/:page_size?/:last_id?": [
         "CaoMeiYouRen"
+    ],
+    "/mihoyo/ys/:location?/:category?": [
+        "nczitzk"
     ],
     "/mindmeister/:category?/:language?": [
         "TonyRL"
@@ -2699,7 +2717,13 @@
     "/nju/gra": [
         "ret-1"
     ],
+    "/nju/hospital": [
+        "ret-1"
+    ],
     "/nju/hqjt": [
+        "ret-1"
+    ],
+    "/nju/itsc": [
         "ret-1"
     ],
     "/nju/jjc": [
@@ -2743,6 +2767,9 @@
     "/njust/jwc/:type?": [
         "MilkShakeYoung",
         "jasongzy"
+    ],
+    "/njxzc/tzgg": [
+        "real-jiakai"
     ],
     "/nltimes/news/:category?": [
         "Hivol"
@@ -3314,6 +3341,12 @@
         "Derekmini",
         "auto-bot-ty"
     ],
+    "/scmp/:category_id": [
+        "proletarius101"
+    ],
+    "/sctv/programme/:id?": [
+        "nczitzk"
+    ],
     "/scvtc/xygg": [
         "nczitzk"
     ],
@@ -3396,6 +3429,25 @@
     ],
     "/sis001/forum/:id": [
         "TonyRL"
+    ],
+    "/smzdm/article/:uid": [
+        "xfangbao"
+    ],
+    "/smzdm/baoliao/:uid": [
+        "nczitzk"
+    ],
+    "/smzdm/haowen/:day?": [
+        "LogicJake"
+    ],
+    "/smzdm/haowen/fenlei/:name/:sort?": [
+        "LogicJake"
+    ],
+    "/smzdm/keyword/:keyword": [
+        "DIYgod",
+        "MeanZhang"
+    ],
+    "/smzdm/ranking/:rank_type/:rank_id/:hour": [
+        "DIYgod"
     ],
     "/sobooks/tag/:id?": [
         "nczitzk"
@@ -3639,9 +3691,15 @@
     "/tencent/qq/sdk/changelog/:platform": [
         "nuomi1"
     ],
+    "/tesla/price": [
+        "xiaokyo"
+    ],
     "/test/:id": [
         "DIYgod",
         "NeverBehave"
+    ],
+    "/thecatcity/:term?": [
+        "TonyRL"
     ],
     "/thecover/channel/:id?": [
         "yuxinliu-alex"
@@ -4513,12 +4571,6 @@
     "/ximalaya/:type/:id/:all?": [],
     "/ximalaya/:type/:id/:all/:shownote?": [],
     "/eztv/torrents/:imdb_id": [],
-    "/smzdm/keyword/:keyword": [],
-    "/smzdm/ranking/:rank_type/:rank_id/:hour": [],
-    "/smzdm/haowen/:day?": [],
-    "/smzdm/haowen/fenlei/:name/:sort?": [],
-    "/smzdm/article/:uid": [],
-    "/smzdm/baoliao/:uid": [],
     "/bjnews/:cat": [],
     "/bjnews/epaper/:cat": [],
     "/mihoyo/bh3/:type": [],
@@ -4576,7 +4628,6 @@
     "/novel/uukanshu/:uid": [],
     "/novel/wenxuemi/:id1/:id2": [],
     "/novel/booksky/:id": [],
-    "/novel/shuquge/:id": [],
     "/novel/ptwxz/:id1/:id2": [],
     "/novel/zhaishuyuan/:id": [],
     "/weatheralarm/:province?": [],
@@ -5273,8 +5324,6 @@
     "/p-articles/contributors/:author": [],
     "/haohaozhu/whole-house/:keyword?": [],
     "/haohaozhu/discover/:keyword?": [],
-    "/kuaidi100/track/:number/:id/:phone?": [],
-    "/kuaidi100/company": [],
     "/dcrsw/:name/:count?": [],
     "/magireco/announcements": [],
     "/magireco/event_banner": [],
@@ -5435,7 +5484,6 @@
     "/boston/:tag?": [],
     "/changku": [],
     "/changku/cate/:postid": [],
-    "/scmp/:category_id": [],
     "/gov/shanghai/sthj": [],
     "/91ddcc/user/:user": [],
     "/91ddcc/stage/:stage": [],
@@ -5554,7 +5602,6 @@
     "/npc/:caty": [],
     "/ofweek/news": [],
     "/popyard/:caty?": [],
-    "/yuanshen/:location?/:category?": [],
     "/wto/dispute-settlement/:year?": [],
     "/forum4399/:mtag": [],
     "/nudt/yjszs/:id?": [],
@@ -5683,7 +5730,6 @@
     "/mofish/:id": [],
     "/mcdonalds/:category": [],
     "/gocomics/:name": [],
-    "/comicskingdom/:name": [],
     "/mediadigest/:range/:category?": [],
     "/ngd/:slug?": [],
     "/simpread/notice": [],
