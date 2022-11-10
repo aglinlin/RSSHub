@@ -560,6 +560,12 @@
     "/blockbeats/:channel?": [
         "Fatpandac"
     ],
+    "/bloomberg/:site?": [
+        "bigfei"
+    ],
+    "/bloomberg/": [
+        "bigfei"
+    ],
     "/bluestacks/release/5": [
         "TonyRL"
     ],
@@ -724,6 +730,12 @@
     ],
     "/cncf/:cate?": [
         "Fatpandac"
+    ],
+    "/cngal/entry/:id": [
+        "chengyuhui"
+    ],
+    "/cngal/weekly": [
+        "chengyuhui"
     ],
     "/cnjxol/jxrb/:id?": [
         "nczitzk"
@@ -1730,24 +1742,6 @@
     "/hellogithub/volume": [
         "nczitzk"
     ],
-    "/heu/yjsy/list/:id": [
-        "Derekmini"
-    ],
-    "/heu/job/bigemploy": [
-        "Derekmini"
-    ],
-    "/heu/job/calendar": [
-        "Derekmini"
-    ],
-    "/heu/job/list/:id": [
-        "Derekmini"
-    ],
-    "/heu/gx/:type/:colume/:id?": [
-        "Derekmini"
-    ],
-    "/heu/uae/list/:id": [
-        "Derekmini"
-    ],
     "/hex-rays/news": [
         "hellodword ",
         "TonyRL"
@@ -1860,6 +1854,27 @@
     ],
     "/houxu/": [
         "nczitzk"
+    ],
+    "/hrbeu/job/bigemploy": [
+        "Derekmini"
+    ],
+    "/hrbeu/job/calendar": [
+        "Derekmini"
+    ],
+    "/hrbeu/job/list/:id": [
+        "Derekmini"
+    ],
+    "/hrbeu/gx/:type/:colume/:id?": [
+        "Derekmini"
+    ],
+    "/hrbeu/uae/list/:id": [
+        "Derekmini"
+    ],
+    "/hrbeu/ugs/news/:author?/:category?": [
+        "XYenon"
+    ],
+    "/hrbeu/yjsy/list/:id": [
+        "Derekmini"
     ],
     "/huangz/": [
         "stormbuf"
@@ -2690,6 +2705,21 @@
     "/nikkei-cn/:language?/:category?/:type?": [
         "nczitzk"
     ],
+    "/nintendo/direct": [
+        "HFO4"
+    ],
+    "/nintendo/eshop/:region": [
+        "HFO4"
+    ],
+    "/nintendo/news": [
+        "HFO4"
+    ],
+    "/nintendo/news/china": [
+        "NeverBehave"
+    ],
+    "/nintendo/system-update": [
+        "hoilc"
+    ],
     "/nippon/:category?": [
         "laampui"
     ],
@@ -3418,6 +3448,9 @@
     "/sicau/zsjy/:category?": [
         "nczitzk"
     ],
+    "/simpleinfo/:category?": [
+        "haukeng"
+    ],
     "/sinchew/category/:category?": [
         "nczitzk"
     ],
@@ -3892,6 +3925,9 @@
     "/u3c3/:type?/:keyword?": [
         "noname1897"
     ],
+    "/uber/blog/:maxPage?": [
+        "hulb"
+    ],
     "/ucas/job/:type?": [
         "Fatpandac"
     ],
@@ -4298,6 +4334,9 @@
     ],
     "/yicai/vip/:id?": [
         "nczitzk"
+    ],
+    "/ymgal/article/:type?": [
+        "SunBK201"
     ],
     "/yoasobi-music/info/:category": [
         "Kiotlin"
@@ -5001,14 +5040,6 @@
     "/ps/ps4updates": [],
     "/ps/:lang?/product/:gridName": [],
     "/quantamagazine/archive": [],
-    "/nintendo/eshop/jp": [],
-    "/nintendo/eshop/hk": [],
-    "/nintendo/eshop/us": [],
-    "/nintendo/eshop/cn": [],
-    "/nintendo/news": [],
-    "/nintendo/news/china": [],
-    "/nintendo/direct": [],
-    "/nintendo/system-update": [],
     "/metred/fuli": [],
     "/mit/graduateadmissions/:type/:name": [],
     "/mit/ocw-top": [],
