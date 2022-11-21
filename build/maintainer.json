@@ -652,6 +652,9 @@
     "/cdi/:id?": [
         "nczitzk"
     ],
+    "/cdzjryb/zw/projectList": [
+        "TonyRL"
+    ],
     "/cebbank/quotation/all": [
         "linbuxiao"
     ],
@@ -748,6 +751,9 @@
     ],
     "/cnki/journals/debut/:name": [
         "Fatpandac"
+    ],
+    "/cnki/author/:code": [
+        "harveyqiu"
     ],
     "/cntheory/paper/:id?": [
         "nczitzk"
@@ -2807,6 +2813,9 @@
     "/nmbxd1/:id": [
         "miles170"
     ],
+    "/nmtv/column/:id?": [
+        "nczitzk"
+    ],
     "/nodejs/blog/:language?": [
         "nczitzk"
     ],
@@ -2848,6 +2857,9 @@
         "evnydd0sf"
     ],
     "/nua/index/:type": [
+        "evnydd0sf"
+    ],
+    "/nua/lib/:type": [
         "evnydd0sf"
     ],
     "/nua/sxw/:type": [
@@ -2900,19 +2912,27 @@
     ],
     "/nyaa/search/:query?": [
         "Lava-Swimmer",
-        "noname1897"
-    ],
-    "/nyaa/sukebei/search/:query?": [
-        "Lava-Swimmer",
-        "noname1897"
+        "noname1776"
     ],
     "/nyaa/user/:username?": [
         "Lava-Swimmer",
-        "noname1897"
+        "noname1776"
+    ],
+    "/nyaa/user/:username/search/:query?": [
+        "Lava-Swimmer",
+        "noname1776"
+    ],
+    "/nyaa/sukebei/search/:query?": [
+        "Lava-Swimmer",
+        "noname1776"
     ],
     "/nyaa/sukebei/user/:username?": [
         "Lava-Swimmer",
-        "noname1897"
+        "noname1776"
+    ],
+    "/nyaa/sukebei/user/:username/search/:query?": [
+        "Lava-Swimmer",
+        "noname1776"
     ],
     "/nytimes/author/:byline": [
         "kevinschaul"
@@ -3339,6 +3359,9 @@
     "/samsung/research/blog": [
         "nczitzk"
     ],
+    "/saraba1st/digest/:tid": [
+        "shinemoon"
+    ],
     "/saraba1st/thread/:tid": [
         "zengxs"
     ],
@@ -3374,7 +3397,7 @@
     "/scmp/:category_id": [
         "proletarius101"
     ],
-    "/sctv/programme/:id?": [
+    "/sctv/programme/:id?/:limit?/:isFull?": [
         "nczitzk"
     ],
     "/scvtc/xygg": [
@@ -3528,7 +3551,7 @@
         "kt286"
     ],
     "/sse/disclosure/:query?": [
-        "alienmao"
+        "harveyqiu"
     ],
     "/sse/inquire": [
         "Jeason0228"
@@ -3796,8 +3819,9 @@
         "nczitzk",
         "bigfei"
     ],
-    "/theverge/": [
-        "HenryQW"
+    "/theverge/:hub?": [
+        "HenryQW",
+        "vbali"
     ],
     "/thwiki/calendar/:before?/:after?": [
         "aether17"
