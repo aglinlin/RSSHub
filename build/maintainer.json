@@ -572,6 +572,9 @@
     "/blockbeats/:channel?": [
         "Fatpandac"
     ],
+    "/bloomberg/authors/:id/:slug/:source?": [
+        "josh"
+    ],
     "/bloomberg/:site?": [
         "bigfei"
     ],
@@ -872,6 +875,9 @@
     ],
     "/curius/links/:name": [
         "Ovler-Young"
+    ],
+    "/cw/author/:channel": [
+        "TonyRL"
     ],
     "/cw/master/:channel": [
         "TonyRL"
@@ -1222,6 +1228,9 @@
     "/economist/gre-vocabulary": [
         "xyqfer"
     ],
+    "/economist/global-business-review/:language?": [
+        "prnake"
+    ],
     "/economist/:endpoint": [
         "ImSingee"
     ],
@@ -1515,6 +1524,9 @@
     "/google/fonts/:sort?": [
         "Fatpandac"
     ],
+    "/google/news/:category/:locale": [
+        "zoenglinghou"
+    ],
     "/google/scholar/:query": [
         "HenryQW"
     ],
@@ -1767,6 +1779,9 @@
     "/guancha/topic/:id/:order?": [
         "occupy5",
         "nczitzk"
+    ],
+    "/guandian/:category": [
+        "drgnchan"
     ],
     "/guangdiu/rank": [
         "fatpandac"
@@ -2400,7 +2415,7 @@
     "/jike/topic/text/:id": [
         "HenryQW"
     ],
-    "/jike/topic/:id": [
+    "/jike/topic/:id/:showUid?": [
         "DIYgod",
         "prnake"
     ],
@@ -2515,6 +2530,9 @@
     "/lativ/:id": [
         "Fatpandac"
     ],
+    "/layoffs/": [
+        "BrandNewLifeJackie26"
+    ],
     "/learnku/:community/:category?": [
         "kayw-geek"
     ],
@@ -2559,6 +2577,9 @@
     ],
     "/line/today/:edition?/:tab?": [
         "nczitzk"
+    ],
+    "/linkedin/jobs": [
+        "BrandNewLifeJackie26"
     ],
     "/linkresearcher/:params": [
         "yech1990"
@@ -3402,6 +3423,33 @@
     "/qm120/news/:category?": [
         "nczitzk"
     ],
+    "/qoo-app/apps/:lang?/card/:id": [
+        "TonyRL"
+    ],
+    "/qoo-app/apps/:lang?/comment/:id": [
+        "TonyRL"
+    ],
+    "/qoo-app/apps/:lang?/note/:id": [
+        "TonyRL"
+    ],
+    "/qoo-app/apps/:lang?/post/:id": [
+        "TonyRL"
+    ],
+    "/qoo-app/notes/:lang?/note/:id": [
+        "TonyRL"
+    ],
+    "/qoo-app/notes/:lang?/topic/:topic": [
+        "TonyRL"
+    ],
+    "/qoo-app/notes/:lang?/user/:uid": [
+        "TonyRL"
+    ],
+    "/qoo-app/news/:lang?": [
+        "TonyRL"
+    ],
+    "/qoo-app/user/:lang?/appComment/:uid": [
+        "TonyRL"
+    ],
     "/qq/ac/comic/:id": [
         "nczitzk"
     ],
@@ -3618,6 +3666,10 @@
     ],
     "/sensortower/blog/:language?": [
         "nczitzk"
+    ],
+    "/shiep/:type/:id?": [
+        "gumibea",
+        "TeamSUEP"
     ],
     "/shmeea/": [
         "jialinghui"
@@ -4175,6 +4227,9 @@
     "/unusualwhales/news": [
         "TonyRL"
     ],
+    "/uptimerobot/rss/:id/:routeParams?": [
+        "Rongronggg9"
+    ],
     "/uraaka-joshi/": [
         "SettingDust",
         "Halcao"
@@ -4442,6 +4497,15 @@
     "/wizfile/updates": [
         "Fatpandac"
     ],
+    "/wnacg/": [
+        "KenMizz"
+    ],
+    "/wnacg/category/:cid": [
+        "Gandum2077"
+    ],
+    "/wnacg/tag/:tag": [
+        "Gandum2077"
+    ],
     "/worldjournal/:path*": [
         "TonyRL"
     ],
@@ -4547,6 +4611,9 @@
     ],
     "/xueqiu/user_stock/:id": [
         "hillerliao"
+    ],
+    "/xunhupay/blog": [
+        "Joey"
     ],
     "/xwlb/": [
         "xfangbao"
@@ -4682,6 +4749,9 @@
     "/zaobao/:type?/:section?": [
         "shunf4"
     ],
+    "/zaozao/article/:type?": [
+        "shaomingbo"
+    ],
     "/zcmu/jwc/:type?": [
         "CCraftY"
     ],
@@ -4774,6 +4844,12 @@
     ],
     "/zhitongcaijing/:id?/:category?": [
         "nczitzk"
+    ],
+    "/zhiy/letters/:author": [
+        "TonyRL"
+    ],
+    "/zhiy/posts/:author": [
+        "TonyRL"
     ],
     "/zhubai/:id": [
         "naixy28"
@@ -5608,7 +5684,6 @@
     "/hackerone/hacktivity": [],
     "/hackerone/search/:search": [],
     "/cowlevel/element/:id": [],
-    "/google/news/:category/:locale": [],
     "/p-articles/section/:section": [],
     "/p-articles/contributors/:author": [],
     "/haohaozhu/whole-house/:keyword?": [],
@@ -5655,8 +5730,6 @@
     "/ccnucs": [],
     "/ccnuwu": [],
     "/weexcn/news/:typeid": [],
-    "/ssmh": [],
-    "/ssmh/category/:cid": [],
     "/scnuyjs": [],
     "/scnucs": [],
     "/scutyjs": [],
@@ -5834,7 +5907,6 @@
     "/iqshw/latest": [],
     "/3k8/latest": [],
     "/justrun": [],
-    "/shiep/:type": [],
     "/fjnews/:city/:limit": [],
     "/fjnews/jjnews": [],
     "/zsnews/index/:cateid": [],
