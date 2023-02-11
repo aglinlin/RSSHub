@@ -845,6 +845,19 @@
       }
     ]
   },
+  "acg17.com": {
+    "_name": "ACG17",
+    ".": [
+      {
+        "title": "全部文章",
+        "docs": "https://docs.rsshub.app/anime.html#acg17",
+        "source": [
+          "/post"
+        ],
+        "target": "/acg17/post/all"
+      }
+    ]
+  },
   "acs.org": {
     "_name": "American Chemistry Society",
     "pubs": [
@@ -1907,6 +1920,42 @@
       }
     ]
   },
+  "52bdys.com": {
+    "_name": "哔嘀影视",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/multimedia.html#bi-di-ying-shi",
+        "source": [
+          "/s/:caty"
+        ]
+      }
+    ]
+  },
+  "bde4.icu": {
+    "_name": "哔嘀影视",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/multimedia.html#bi-di-ying-shi",
+        "source": [
+          "/s/:caty"
+        ]
+      }
+    ]
+  },
+  "bdys01.com": {
+    "_name": "哔嘀影视",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/multimedia.html#bi-di-ying-shi",
+        "source": [
+          "/s/:caty"
+        ]
+      }
+    ]
+  },
   "behance.net": {
     "_name": "Behance",
     "www": [
@@ -2380,6 +2429,28 @@
       }
     ]
   },
+  "bjsk.org.cn": {
+    "_name": "北京社科网",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/government.html#bei-jing-she-ke-wang",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
+  "bjwxdxh.org.cn": {
+    "_name": "北京无线电协会",
+    "www": [
+      {
+        "title": "最新资讯",
+        "docs": "https://docs.rsshub.app/government.html#bei-jing-wu-xian-dian-xie-hui",
+        "source": "/news/class/"
+      }
+    ]
+  },
   "bjx.com.cn": {
     "_name": "北极星电力网",
     "guangfu": [
@@ -2779,6 +2850,31 @@
           "/"
         ],
         "target": "/cankaoxiaoxi/news/world_news"
+      }
+    ]
+  },
+  "cartoonmad.com": {
+    "_name": "動漫狂",
+    ".": [
+      {
+        "title": "漫画更新",
+        "docs": "https://docs.rsshub.app/anime.html#dong-man-kuang",
+        "source": [
+          "/comic/:id"
+        ],
+        "target": "/cartoonmad/comic/:id"
+      }
+    ]
+  },
+  "cast.org.cn": {
+    "_name": "中国科学技术协会",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/government.html#zhong-guo-ke-xue-ji-shu-xie-hui",
+        "source": [
+          "/col/:column/index.html"
+        ]
       }
     ]
   },
@@ -8996,6 +9092,16 @@
       }
     ]
   },
+  "issuehunt.io": {
+    "_name": "Issue Hunt",
+    ".": [
+      {
+        "title": "项目悬赏",
+        "docs": "https://docs.rsshub.app/programming.html#issue-hunt-xiang-mu-xuan-shang",
+        "source": "/r/:username/:repo"
+      }
+    ]
+  },
   "itch.io": {
     "_name": "itch.io",
     ".": [
@@ -10499,6 +10605,19 @@
       }
     ]
   },
+  "jiaoliudao.com": {
+    "_name": "交流岛资源网",
+    ".": [
+      {
+        "title": "最新文章",
+        "docs": "https://docs.rsshub.app/blog.html#jiao-liu-dao-zi-yuan-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/jiaoliudao"
+      }
+    ]
+  },
   "jiemian.com": {
     "_name": "界面新闻",
     ".": [
@@ -10547,6 +10666,19 @@
         "docs": "https://docs.rsshub.app/social-media.html#ji-ke",
         "source": "/topics/:id",
         "target": "/jike/topic/text/:id"
+      }
+    ]
+  },
+  "jin10.com": {
+    "_name": "金十数据",
+    ".": [
+      {
+        "title": "市场快讯",
+        "docs": "https://docs.rsshub.app/finance.html#jin-shi-shu-ju",
+        "source": [
+          "/"
+        ],
+        "target": "/jin10"
       }
     ]
   },
@@ -10821,6 +10953,20 @@
           "/"
         ],
         "target": "/kemono/:source?/:id?"
+      }
+    ]
+  },
+  "kimlaw.or.kr": {
+    "_name": "韓國海事法學會",
+    ".": [
+      {
+        "title": "学术论文",
+        "docs": "https://docs.rsshub.app/study.html#han-guo-hai-shi-fa-xue-hui",
+        "source": [
+          "/67",
+          "/"
+        ],
+        "target": "/kimlaw/thesis"
       }
     ]
   },
@@ -11842,6 +11988,33 @@
       }
     ]
   },
+  "mclaren.com": {
+    "_name": "Mclaren Racing",
+    "www": [
+      {
+        "title": "Mclaren Racing",
+        "docs": "https://docs.rsshub.app/new-media.html#mai-kai-lun-sai-che",
+        "source": "/racing/articles/",
+        "target": "/mclaren/en/all"
+      }
+    ],
+    "cn": [
+      {
+        "title": "迈凯伦赛车",
+        "docs": "https://docs.rsshub.app/new-media.html#mai-kai-lun-sai-che",
+        "source": "/racing/articles/",
+        "target": "/mclaren/zh/all"
+      }
+    ],
+    "es": [
+      {
+        "title": "Mclaren Racing",
+        "docs": "https://docs.rsshub.app/new-media.html#mai-kai-lun-sai-che",
+        "source": "/racing/articles/",
+        "target": "/mclaren/es/all"
+      }
+    ]
+  },
   "mdpi.com": {
     "_name": "MDPI",
     "www": [
@@ -12102,19 +12275,6 @@
           "/"
         ],
         "target": "/mox/:category?"
-      }
-    ]
-  },
-  "52bdys.com": {
-    "_name": "哔嘀影视",
-    ".": [
-      {
-        "title": "首页",
-        "docs": "https://docs.rsshub.app/multimedia.html#bi-di-ying-shi",
-        "source": [
-          "/"
-        ],
-        "target": "/mp4er/:type?/:caty?/:area?/:year?/:order?"
       }
     ]
   },
@@ -14311,6 +14471,19 @@
       }
     ]
   },
+  "piyao.org.cn": {
+    "_name": "中国互联网联合辟谣平台",
+    ".": [
+      {
+        "title": "今日辟谣",
+        "docs": "https://docs.rsshub.app/other.html#zhong-guo-hu-lian-wang-lian-he-pi-yao-ping-tai",
+        "source": [
+          "/jrpy/index.htm"
+        ],
+        "target": "/piyao/jrpy"
+      }
+    ]
+  },
   "pku.edu.cn": {
     "_name": "北京大学",
     "admission": [
@@ -15194,6 +15367,24 @@
           "/"
         ],
         "target": "/rfi/news"
+      }
+    ]
+  },
+  "rodong.rep.kp": {
+    "_name": "劳动新闻",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#lao-dong-xin-wen",
+        "source": [
+          "/cn/index.php",
+          "/en/index.php",
+          "/ko/index.php",
+          "/cn",
+          "/en",
+          "/ko"
+        ],
+        "target": "/rodong/news"
       }
     ]
   },
@@ -16677,38 +16868,9 @@
     "_name": "证券时报网",
     ".": [
       {
-        "title": "要闻",
-        "docs": "https://docs.rsshub.app/finance.html#zheng-quan-shi-bao-wang-yao-wen",
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/finance.html#zheng-quan-shi-bao-wang-lan-mu",
         "source": [
-          "/xw/:id",
-          "/gd",
-          "/"
-        ]
-      },
-      {
-        "title": "快讯",
-        "docs": "https://docs.rsshub.app/finance.html#zheng-quan-shi-bao-wang-kuai-xun",
-        "source": [
-          "/kuaixun/:id",
-          "/kuaixun",
-          "/"
-        ]
-      },
-      {
-        "title": "股市",
-        "docs": "https://docs.rsshub.app/finance.html#zheng-quan-shi-bao-wang-gu-shi",
-        "source": [
-          "/stock/:id",
-          "/stock",
-          "/"
-        ]
-      },
-      {
-        "title": "数据",
-        "docs": "https://docs.rsshub.app/finance.html#zheng-quan-shi-bao-wang-shu-ju",
-        "source": [
-          "/data/:id",
-          "/data",
           "/"
         ]
       }
@@ -18086,6 +18248,26 @@
       }
     ]
   },
+  "u9a9.com": {
+    "_name": "U9A9",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/multimedia.html#u9a9",
+        "source": [
+          "/"
+        ],
+        "target": "/u9a9"
+      },
+      {
+        "title": "搜索",
+        "docs": "https://docs.rsshub.app/multimedia.html#u9a9",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "uber.com": {
     "_name": "Uber Blog",
     "www": [
@@ -18737,19 +18919,6 @@
       {
         "title": "公众号（wechat-feeds 来源）",
         "docs": "https://docs.rsshub.app/new-media.html#wei-xin"
-      }
-    ]
-  },
-  "wemp.app": {
-    "_name": "微信",
-    ".": [
-      {
-        "title": "公众号（wemp.app 来源）",
-        "docs": "https://docs.rsshub.app/new-media.html#wei-xin",
-        "source": [
-          "/accounts/:id"
-        ],
-        "target": "/wechat/wemp/:id"
       }
     ]
   },
@@ -19535,6 +19704,19 @@
           "/"
         ],
         "target": "/xyzrank/new-podcasts"
+      }
+    ]
+  },
+  "yahoo.com": {
+    "_name": "Yahoo",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#yahoo",
+        "source": [
+          "/"
+        ],
+        "target": "/yahoo/news/:region/:category?"
       }
     ]
   },
